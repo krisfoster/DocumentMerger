@@ -96,10 +96,7 @@ of your batch file, revisions order file and destination document name etc.
 
 ### Command Line Options
 
-cols: 54
-Row 1 : starts at 66
-66 + 54 = 120
-54 * 5 = 250 + 20 = 270 + 
+For command line usage run:
 
-66 + 108 = 174
+    $ java -jar target/DocumentMerger-1.0-SNAPSHOT-jar-with-dependencies.jar -help
 
