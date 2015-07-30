@@ -161,7 +161,7 @@ public class App
         // Loop over the output order (the passed in dIDs) and extract the
         // matching dID from the passed in revisions. Fix up that revision
         // and place it in the ouptut revisions
-        int index = 1;
+        int index = resultantOrder.size();
         //
         for (String dID : resultantOrder) {
             //
@@ -182,7 +182,7 @@ public class App
                     revisionClassID);
             revsOut.put(dID, tRev);
             // Don't like this - but I am lazy :)
-            index++;
+            index--;
         }
         //
         return revsOut;
